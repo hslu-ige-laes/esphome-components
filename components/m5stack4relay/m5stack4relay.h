@@ -16,10 +16,10 @@ enum class RelayBit : uint8_t {
   LED2 = 6,
   LED3 = 5,
   LED4 = 4,
-  RELAY1 = 3,
-  RELAY2 = 2,
-  RELAY3 = 1,
-  RELAY4 = 0,
+  RELAY1 = 0,
+  RELAY2 = 1,
+  RELAY3 = 2,
+  RELAY4 = 3,
   NONE = 255
 };
 
